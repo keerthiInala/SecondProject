@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(images/bgimg.jpg); 
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.title{
+	text-align: center;
+	padding:50px 0 20px;
+}
+
+.title h1{
+	margin: 0;
+	padding: 0;
+	color:#3d2507;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.container{
+	width:50%;
+	height: 400px;
+	background: #fff;
+	margin:0 auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0.5);
+}
+
+.container .left{
+	float: left;
+	width:50%;
+	height: 400px;
+	background: url(images/godg.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.container .right{
+	float:right;
+	width:50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+
+.formBox{
+	width:100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background: #fff;
+}
+
+.formBox p{
+	margin: 0;
+	padding:0px;
+	font-weight: bold;
+	color: #c37205;
+}
+
+.formBox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+	border:none;
+	border-bottom: 2px solid #c37205;
+	outline:none;
+	height: 40px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus
+{
+	border-bottom: 2px solid #6d6254;	
+}
+
+.formBox input[type="Submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background-color: #c37205;
+	width:100%;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.formBox a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #7a4704;
+}
+
+.formBox .pwd{
+	float: right;
+}
